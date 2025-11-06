@@ -99,6 +99,32 @@
 
             DateTime newDate = birthDate.AddDays(10);
             Console.WriteLine($"10 days after my birth date: {newDate.ToShortDateString()}");
+
+            //Task 6
+            List<string> fruits = new List<string>() { "Mango", "Apple", "Pineapple" };
+            fruits.Add("Strawberry");
+
+            fruits.Remove("Apple");
+
+            foreach(string fruit in fruits)
+            {
+                Console.WriteLine(fruit);
+            }
+
+            Dictionary<int, string> fruitDictionary = new Dictionary<int, string>()
+            {
+                {1, "Mango"},
+                {2, "Pineapple"},
+                {3, "Strawberry"}
+            };
+
+
+            fruitDictionary.Add(4, "Grapes");
+
+            foreach (KeyValuePair<int, string> kvp in fruitDictionary)
+            {
+                Console.WriteLine($"ID: {kvp.Key}, Fruit: {kvp.Value}");
+            }
         }
         //task 2 (2nd process)
         public class Circle
