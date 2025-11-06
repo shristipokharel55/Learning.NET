@@ -1,0 +1,14 @@
+E:\SHRISTI POKHREL\3rd Year\1st Sem\Application Development\Week 2\Week2Workshop\Week2Workshop\bin\Debug\net9.0\Week2Workshop.exe
+E:\SHRISTI POKHREL\3rd Year\1st Sem\Application Development\Week 2\Week2Workshop\Week2Workshop\bin\Debug\net9.0\Week2Workshop.deps.json
+E:\SHRISTI POKHREL\3rd Year\1st Sem\Application Development\Week 2\Week2Workshop\Week2Workshop\bin\Debug\net9.0\Week2Workshop.runtimeconfig.json
+E:\SHRISTI POKHREL\3rd Year\1st Sem\Application Development\Week 2\Week2Workshop\Week2Workshop\bin\Debug\net9.0\Week2Workshop.dll
+E:\SHRISTI POKHREL\3rd Year\1st Sem\Application Development\Week 2\Week2Workshop\Week2Workshop\bin\Debug\net9.0\Week2Workshop.pdb
+E:\SHRISTI POKHREL\3rd Year\1st Sem\Application Development\Week 2\Week2Workshop\Week2Workshop\obj\Debug\net9.0\Week2Workshop.GeneratedMSBuildEditorConfig.editorconfig
+E:\SHRISTI POKHREL\3rd Year\1st Sem\Application Development\Week 2\Week2Workshop\Week2Workshop\obj\Debug\net9.0\Week2Workshop.AssemblyInfoInputs.cache
+E:\SHRISTI POKHREL\3rd Year\1st Sem\Application Development\Week 2\Week2Workshop\Week2Workshop\obj\Debug\net9.0\Week2Workshop.AssemblyInfo.cs
+E:\SHRISTI POKHREL\3rd Year\1st Sem\Application Development\Week 2\Week2Workshop\Week2Workshop\obj\Debug\net9.0\Week2Workshop.csproj.CoreCompileInputs.cache
+E:\SHRISTI POKHREL\3rd Year\1st Sem\Application Development\Week 2\Week2Workshop\Week2Workshop\obj\Debug\net9.0\Week2Workshop.dll
+E:\SHRISTI POKHREL\3rd Year\1st Sem\Application Development\Week 2\Week2Workshop\Week2Workshop\obj\Debug\net9.0\refint\Week2Workshop.dll
+E:\SHRISTI POKHREL\3rd Year\1st Sem\Application Development\Week 2\Week2Workshop\Week2Workshop\obj\Debug\net9.0\Week2Workshop.pdb
+E:\SHRISTI POKHREL\3rd Year\1st Sem\Application Development\Week 2\Week2Workshop\Week2Workshop\obj\Debug\net9.0\Week2Workshop.genruntimeconfig.cache
+E:\SHRISTI POKHREL\3rd Year\1st Sem\Application Development\Week 2\Week2Workshop\Week2Workshop\obj\Debug\net9.0\ref\Week2Workshop.dll
