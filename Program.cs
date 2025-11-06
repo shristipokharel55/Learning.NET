@@ -20,6 +20,24 @@
             Console.WriteLine($"For a circle with radius {radius}:");
             Console.WriteLine($"Area: {area}");
             Console.WriteLine($"Perimeter: {perimeter}");
+
+            //task 2 (2nd process)
+            Circle circle = new Circle();
+            Console.WriteLine($"Area: {circle.CalculateArea(7)}");
+            Console.WriteLine($"Perimeter: {circle.CalculatePerimeter(7)}");
+        }
+        //task 2 (2nd process)
+        public class Circle
+        {
+            public const double PI = 3.14;
+            public double CalculateArea(double radius)
+            {
+                return PI * radius * radius;
+            }
+            public double CalculatePerimeter(double radius)
+            {
+                return 2 * PI * radius;
+            }
         }
     }   
 }
