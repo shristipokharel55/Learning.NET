@@ -25,6 +25,80 @@
             Circle circle = new Circle();
             Console.WriteLine($"Area: {circle.CalculateArea(7)}");
             Console.WriteLine($"Perimeter: {circle.CalculatePerimeter(7)}");
+
+            //task 3
+            byte b = 5;
+            short s = 30000;
+            int i = 6;
+            long l = 7L;
+            float f = 5.5f;
+            double d = 19.99;
+            decimal dec = 99.99m;
+            char c = 'A';
+            bool isTrue = true;
+
+            int num = 55;
+            string numString = num.ToString();
+
+            string str = "3.14";
+            double strDouble = Convert.ToDouble(str);
+
+            Console.WriteLine($"Byte: {b}");
+            Console.WriteLine($"Short: {s}");
+            Console.WriteLine($"Int: {i}");
+            Console.WriteLine($"Long: {l}");
+            Console.WriteLine($"Float: {f}");
+            Console.WriteLine($"Double: {d}");
+            Console.WriteLine($"Decimal: {dec}");
+            Console.WriteLine($"Char: {c}");
+            Console.WriteLine($"Bool: {isTrue}");
+            Console.WriteLine($"Int to string: {numString}");
+            Console.WriteLine($"String to double: {strDouble}");
+
+            //task 4
+            int[] favNum = { 1, 2, 3, 4, 5 };
+            Console.WriteLine("Favorite numbers:");
+            for (int j = 0; j<favNum.Length; j++)
+            {
+                Console.Write(favNum[j] + "");
+            }
+            Array.Sort(favNum);
+            Console.WriteLine("\nSorted favorite numbers in ascending order:");
+            for(int j = 0; j<favNum.Length; j++)
+            {
+                Console.Write(favNum[j] + "");
+            }
+
+            Array.Reverse(favNum);
+            Console.WriteLine("\nReversed favourite number: ");
+            for (int j = 0; j<favNum.Length; j++)
+            {
+                Console.Write(favNum[j] + "");
+            }
+
+            int searchNum = 5;
+            int index = Array.IndexOf(favNum, searchNum);
+            if (index >= 0)
+                Console.WriteLine($"\nNumber {searchNum} found at index {index}.");
+            else
+                Console.WriteLine($"\nNumber {searchNum} not found in array.");
+
+            //task 5
+            DateTime birthDate = new DateTime(2005, 01, 15);
+            DateTime currentDate = DateTime.Now;
+
+            TimeSpan currenAge = currentDate - birthDate;
+
+            double totalDays = currenAge.TotalDays;
+
+            int years = (int)(totalDays / 365);
+
+            Console.WriteLine($"My Birthdate: {birthDate.ToShortDateString()}");
+            Console.WriteLine($"Current Date: {currentDate}");
+            Console.WriteLine($"My age: {years} years");
+
+            DateTime newDate = birthDate.AddDays(10);
+            Console.WriteLine($"10 days after my birth date: {newDate.ToShortDateString()}");
         }
         //task 2 (2nd process)
         public class Circle
